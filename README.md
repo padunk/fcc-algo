@@ -20,12 +20,12 @@ package main
 import (
    "fmt"
    // change the GOPATH to your gopath directory
-	"GOPATH/fcc-algo/basic"
+   "GOPATH/fcc-algo/basic"
    "GOPATH/fcc-algo/inter"
 )
 
 func main() {
-   fmt.Println(basic.ConvertToF(100))
+        fmt.Println(basic.ConvertToF(100))
 	fmt.Println(inter.Destroyer([]int{1, 2, 3, 1, 2, 3}, 2, 3))
 }
 ```
@@ -72,7 +72,7 @@ You can get all the test from FreeCodeCamp [website](https://learn.freecodecamp.
 ### Sum All Number in a Range
 [link]()
 ```go
-   fmt.Println(inter.SumAll([]int{1, 4}))
+        fmt.Println(inter.SumAll([]int{1, 4}))
 	fmt.Println(inter.SumAll([]int{4, 1}))
 	fmt.Println(inter.SumAll([]int{5, 10}))
 	fmt.Println(inter.SumAll([]int{10, 5}))
@@ -81,7 +81,7 @@ You can get all the test from FreeCodeCamp [website](https://learn.freecodecamp.
 ### Diff Two Arrays
 [link]()
 ```go
-   fmt.Println(inter.DiffIntArray([]int{1, 2, 3, 5}, []int{1, 2, 3, 4, 5}))
+   	fmt.Println(inter.DiffIntArray([]int{1, 2, 3, 5}, []int{1, 2, 3, 4, 5}))
 	fmt.Println(inter.DiffStringArray([]string{"diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"}, []string{"diorite", "andesite", "grass", "dirt", "dead shrub"}))
 	fmt.Println(inter.DiffStringArray([]string{"andesite", "grass", "dirt", "pink wool", "dead shrub"}, []string{"diorite", "andesite", "grass", "dirt", "dead shrub"}))
 	fmt.Println(inter.DiffStringArray([]string{"diorite", "andesite", "grass", "dirt", "dead shrub"}, []string{"diorite", "andesite", "grass", "dirt", "dead shrub"}))
@@ -92,7 +92,7 @@ You can get all the test from FreeCodeCamp [website](https://learn.freecodecamp.
 ### Seek and Destroy
 [link]()
 ```go
-   fmt.Println(inter.Destroyer([]int{1, 2, 3, 1, 2, 3}, 2, 3))
+   	fmt.Println(inter.Destroyer([]int{1, 2, 3, 1, 2, 3}, 2, 3))
 	fmt.Println(inter.Destroyer([]int{1, 2, 3, 5, 1, 2, 3}, 2, 3))
 	fmt.Println(inter.Destroyer([]int{3, 5, 1, 2, 2}, 2, 3, 5))
 	fmt.Println(inter.Destroyer([]int{2, 3, 2, 3}, 2, 3))
