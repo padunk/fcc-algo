@@ -25,7 +25,7 @@ import (
 )
 
 func main() {
-   fmt.Println(basic.ConvertToF(100))
+        fmt.Println(basic.ConvertToF(100))
 	fmt.Println(inter.Destroyer([]int{1, 2, 3, 1, 2, 3}, 2, 3))
 }
 ```
@@ -126,7 +126,7 @@ fmt.Println(basic.ConfirmEnding("Abstraction", "action")) // true
 ### Sum All Number in a Range
 [link]()
 ```go
-   fmt.Println(inter.SumAll([]int{1, 4}))
+        fmt.Println(inter.SumAll([]int{1, 4}))
 	fmt.Println(inter.SumAll([]int{4, 1}))
 	fmt.Println(inter.SumAll([]int{5, 10}))
 	fmt.Println(inter.SumAll([]int{10, 5}))
@@ -135,7 +135,7 @@ fmt.Println(basic.ConfirmEnding("Abstraction", "action")) // true
 ### Diff Two Arrays
 [link]()
 ```go
-   fmt.Println(inter.DiffIntArray([]int{1, 2, 3, 5}, []int{1, 2, 3, 4, 5}))
+   	fmt.Println(inter.DiffIntArray([]int{1, 2, 3, 5}, []int{1, 2, 3, 4, 5}))
 	fmt.Println(inter.DiffStringArray([]string{"diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"}, []string{"diorite", "andesite", "grass", "dirt", "dead shrub"}))
 	fmt.Println(inter.DiffStringArray([]string{"andesite", "grass", "dirt", "pink wool", "dead shrub"}, []string{"diorite", "andesite", "grass", "dirt", "dead shrub"}))
 	fmt.Println(inter.DiffStringArray([]string{"diorite", "andesite", "grass", "dirt", "dead shrub"}, []string{"diorite", "andesite", "grass", "dirt", "dead shrub"}))
@@ -146,7 +146,7 @@ fmt.Println(basic.ConfirmEnding("Abstraction", "action")) // true
 ### Seek and Destroy
 [link]()
 ```go
-   fmt.Println(inter.Destroyer([]int{1, 2, 3, 1, 2, 3}, 2, 3))
+   	fmt.Println(inter.Destroyer([]int{1, 2, 3, 1, 2, 3}, 2, 3))
 	fmt.Println(inter.Destroyer([]int{1, 2, 3, 5, 1, 2, 3}, 2, 3))
 	fmt.Println(inter.Destroyer([]int{3, 5, 1, 2, 2}, 2, 3, 5))
 	fmt.Println(inter.Destroyer([]int{2, 3, 2, 3}, 2, 3))
