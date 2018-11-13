@@ -3,11 +3,13 @@ package basic
 // ReverseString takes string and
 // return reverse string pattern
 func ReverseString(str string) string {
-	var resultByte []byte
+	var result []byte
+	// convert string to byte, we can also use
+	// strings.Split to split strings into substring
 	b := []byte(str)
 	for i := len(b) - 1; i >= 0; i-- {
-		resultByte = append(resultByte, b[i])
+		result = append(result, b[i])
 	}
-
-	return string(resultByte)
+	// convert byte to string again
+	return string(result)
 }

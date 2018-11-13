@@ -1,8 +1,11 @@
 package basic
 
 /*
-The output will be uint64 because the result will
-be very big numbers if we want to find 20!
+The output will be uint64 because the result will be
+very big numbers if we want to find 20!
+- we make the slice from 1 to 'i' store it in variable arr
+- loop through arr and multiply each number and store it in result
+TODO: add checking if 'i' is less than 0
 */
 
 // Factorialize takes i as integer

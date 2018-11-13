@@ -5,6 +5,12 @@ import (
 	"sort"
 )
 
+/*
+We use 'sort' to sort each nested slice. sort.Ints()
+will return sort integer incrementally, so the biggest
+number will be at the end of slice which is len(a)-1
+*/
+
 // LargestOfFour takes nested slice of int and
 // pick the biggest number in each slice and then collect it
 // into a single slice
